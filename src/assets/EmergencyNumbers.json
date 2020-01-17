@@ -1,0 +1,137 @@
+﻿[
+  {
+    "country": "Algeria",
+    "numbers": {
+      "police": "1548",
+      "ambulance": "14",
+      "fire": "Gendarme - 1055",
+      "notes": ""
+    }
+  },
+  {
+    "country": "Angola",
+    "numbers": {
+      "police": "113",
+      "ambulance": "112/116",
+      "fire": "115",
+      "notes": ""
+    }
+  },
+  {
+    "country": "Ascension Island",
+    "numbers": {
+      "police": "999",
+      "ambulance": "",
+      "fire": "",
+      "notes": ""
+    }
+  },
+  {
+    "country": "Benin",
+    "numbers": {
+      "police": "117",
+      "ambulance": "112",
+      "fire": "118",
+      "notes": "Support for children - 160."
+    }
+  },
+  {
+    "country": "Botswana",
+    "numbers": {
+      "police": "999",
+      "ambulance": "997",
+      "fire": "998",
+      "notes": "Mobile phones - 112."
+    }
+  },
+  {
+    "country": "Burkina Faso",
+    "numbers": {
+      "police": "17",
+      "ambulance": "112",
+      "fire": "18",
+      "notes": "Water emergency - 1111; Electricity emergency - 1130."
+    }
+  },
+  {
+    "country": "Burundi",
+    "numbers": {
+      "police": "117",
+      "ambulance": "112",
+      "fire": "118",
+      "notes": "Support for children - 116."
+    }
+  },
+  {
+    "country": "Cameroon",
+    "numbers": {
+      "police": "112",
+      "ambulance": "\"police\" - 117; \"ambulance\" - 119; \"fire\" - 118; Electricity emergency - 8010.",
+      "fire": "",
+      "notes": ""
+    }
+  },
+  {
+    "country": "Cape Verde",
+    "numbers": {
+      "police": "132",
+      "ambulance": "130",
+      "fire": "131",
+      "notes": "Water/electricity emergency - 800 11 33."
+    }
+  },
+  {
+    "country": "Central African Republic",
+    "numbers": {
+      "police": "117",
+      "ambulance": "1220",
+      "fire": "118",
+      "notes": ""
+    }
+  },
+  {
+    "country": "Chad",
+    "numbers": {
+      "police": "17",
+      "ambulance": "2251-4242",
+      "fire": "18",
+      "notes": "\"ambulance\" - 2251-1237."
+    }
+  },
+  {
+    "country": "Comoros",
+    "numbers": {
+      "police": "17",
+      "ambulance": "772-03-73",
+      "fire": "18",
+      "notes": "\"ambulance\" - 773-26-04."
+    }
+  },
+  {
+    "country": "Democratic Republic of Congo",
+    "numbers": {
+      "police": "112",
+      "ambulance": "",
+      "fire": "118",
+      "notes": ""
+    }
+  },
+  {
+    "country": "Djibouti",
+    "numbers": {
+      "police": "17",
+      "ambulance": "19",
+      "fire": "18",
+      "notes": ""
+    }
+  },
+  {
+    "country": "Egypt",
+    "numbers": {
+      "police": "122",
+      "ambulance": "123",
+      "fire": "180",
+      "notes": "Tourist \"police\" - 126; Traffic \"police\" - 128; Electricity emergency - 121; Gas emergency - 129; Mobile phones - 112."
+    }
+  }
+]
