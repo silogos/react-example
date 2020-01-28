@@ -24,10 +24,10 @@ const MENU = [
   { title: 'Visas', link: 'Visa', type: 'screen' },
   { title: 'Emergency', link: 'Emergency', type: 'screen' },
   { title: 'Lounge Search', link: 'Lounge', type: 'screen' },
-  { title: 'Travel', link: 'https://aimviva.wayfarer.deals/en/CugHome/login', type: 'website' },
-  { title: 'Arrture', link: 'https://www.arrture.com/openEnrollment', type: 'website' },
-  { title: 'Flexiroam', link: 'https://a.flexiroamx.com/aimviva', type: 'website' },
-  { title: 'TraceMe', link: 'https://www.tmlt.co.uk/', type: 'website' }
+  { title: 'Travel', link: 'http://bit.ly/Aimviva', type: 'website' },
+  { title: 'Arrture', link: 'http://bit.ly/loungelink', type: 'website' },
+  { title: 'Flexiroam', link: 'http://bit.ly/flexiroom  ', type: 'website' },
+  { title: 'TraceMe', link: 'http://bit.ly/bagtagg', type: 'website' }
 ]
 
 export default function HomeScreen({ navigation }) {

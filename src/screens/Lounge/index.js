@@ -58,7 +58,7 @@ export default function LoungeScreen() {
                 return (
                   <TouchableOpacity onPress={() => onSelected(item)}>
                     <View style={{ padding: wp(2) }}>
-                      <Text style={styles.textLabel}>{item.name.common}</Text>
+                      <Text>{item.name.common}</Text>
                     </View>
                   </TouchableOpacity>
                 )

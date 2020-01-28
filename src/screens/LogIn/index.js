@@ -14,7 +14,7 @@ import {
 import Button from '../../component/Button';
 import TextInput from '../../component/TextInput';
 
-export default function LoginScreen() {
+export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -32,6 +32,8 @@ export default function LoginScreen() {
           <View style={styles.row}>
             <TextInput label={'Password'} value={password} onChangeText={(text) => setPassword(text)} secureTextEntry={true} />
           </View>
+
+          <Button onPress={() => navigation.push('MemberArea')} title={'Submit'} />
 
         </ScrollView>
       </SafeAreaView>
