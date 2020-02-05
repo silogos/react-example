@@ -1,4 +1,4 @@
-package com.aimviva;
+package com.aimviva.mobile;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

@@ -5,34 +5,47 @@ import {
   ScrollView,
   View,
   Text,
-  StatusBar
+  StatusBar,
+  Dimensions
 } from 'react-native';
-import { 
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from '../../libraries/Responsive';
-import Button from '../../component/Button';
-import TextInput from '../../component/TextInput';
+import { TouchableOpacity, FlatList } from 'react-native-gesture-handler';
+
 import AutoComplete from '../../component/AutoComplete';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Styles } from '../../styles';
 const DATA = require('../../assets/Countries.json')
+const LOUNGES = require('../../assets/Lounge.json')
+let COUNTRIES = DATA.filter((item) => {
+  let exist = LOUNGES.findIndex((lounge) => lounge.countryCode === item.cca2) 
+  return exist !== -1 ? true : false 
+})
 
 export default function LoungeScreen() {
   const [searchAirport, setSearchAirport] = useState("");
   const [airport, setAirport] = useState(null);
-  // const [searchAirport, setAirport] = useState("");
-  const [terminal, setTerminal] = useState("Terminal 1");
-
-  const _filter = ((data, func) => {
-    return data.filter(func)
-  })
-  let dataAirport = _filter(DATA, (item) => {
+  const [searchTerminal, setSearchTerminal] = useState("");
+  const [terminal, setTerminal] = useState(null);
+  const [dataTerminal, setDataTerminal] = useState([])
+  
+  const DATA_AIRPORT = COUNTRIES.filter((item) => {
     return item.name.common.toLowerCase().search(searchAirport.toLowerCase()) === -1 ? false : true
-  })
+  }) 
+  const DATA_TERMINAL = dataTerminal.filter((item) => {
+    return item.title.toLowerCase().search(searchTerminal.toLowerCase()) === -1 ? false : true
+  }) 
 
-  const onSelected = (item) => {
+  const onSelectAirport = (item) => {
+    let dataTerminal = LOUNGES.filter((lounge) => {
+      return lounge.countryCode === item.cca2
+    })
+    console.log({ onSelectAirport: item, dataTerminal })
     setAirport(item)
     setSearchAirport(item.name.common)
+    setDataTerminal(dataTerminal)
+  }
+  const onSelectTerminal = (item) => {
+    console.log({ setTerminal: item })
+    setTerminal(item)
+    setSearchTerminal(item.title)
   }
 
   return (
@@ -40,9 +53,6 @@ export default function LoungeScreen() {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView contentContainerStyle={styles.container}>    
-          <View style={styles.header}>
-            <Button title={'Lounge Search'} />
-          </View>  
           <View style={styles.row}>
             <AutoComplete 
               label={'Airport'} 
@@ -51,13 +61,15 @@ export default function LoungeScreen() {
               onChangeText={(text) => {
                 setAirport(null)
                 setSearchAirport(text)
+                setTerminal(null)
+                setSearchTerminal("")
               }}
               style={{ textAlign: 'center' }}
-              data={dataAirport}
+              data={DATA_AIRPORT}
               renderItem={({item, index}) => {
                 return (
-                  <TouchableOpacity onPress={() => onSelected(item)}>
-                    <View style={{ padding: wp(2) }}>
+                  <TouchableOpacity onPress={() => onSelectAirport(item)}>
+                    <View style={{ padding: 10 }}>
                       <Text>{item.name.common}</Text>
                     </View>
                   </TouchableOpacity>
@@ -66,16 +78,51 @@ export default function LoungeScreen() {
             />
           </View>
           <View style={styles.row}>
-            <TextInput 
+            <AutoComplete 
               label={'Terminal'} 
-              value={terminal} 
-              onChangeText={(text) => setTerminal(text)} 
-              style={{ color: 'red', textAlign: 'center' }}
+              value={terminal && terminal.title} 
+              defaultValue={searchTerminal} 
+              onChangeText={(text) => {
+                setTerminal(null)
+                setSearchTerminal(text)
+              }}
+              style={{ textAlign: 'center' }}
+              data={DATA_TERMINAL}
+              renderItem={({item, index}) => {
+                return (
+                  <TouchableOpacity onPress={() => onSelectTerminal(item)}>
+                    <View style={{ padding: 10 }}>
+                      <Text style={Styles.fontBody1}>{item.title}</Text>
+                    </View>
+                  </TouchableOpacity>
+                )
+              }}
             />
           </View>
-          <View style={styles.row}>
-            <Text style={styles.textDesc} >dsa</Text>
-          </View>  
+
+          <FlatList 
+            data={terminal ? terminal.terminals : []}
+            renderItem={({ item }) => {
+
+              return (
+                <View style={{ marginVertical: 15, borderWidth: 1, borderColor: "#CCC", padding: 5 }}>
+                  <Text style={[Styles.fontTitle3]} >{item.title}
+                    <Text style={[Styles.fontCaption]} > ({item.costs})</Text>
+                  </Text>
+                  <Text style={[Styles.fontCaption]} >{item.time}</Text>
+                  <Text style={[Styles.fontBody1]} >{item.features}</Text>
+                  { 
+                    item.contacts.map((item) => {
+                      let contacts = Object.keys(item)
+                      return contacts.map((contact) => (
+                        <Text style={[Styles.fontCaption]} >{contact}: {item[contact]}</Text>
+                      ))
+                    })
+                  }
+                </View>
+              )
+            }}
+          />
         </ScrollView>
       </SafeAreaView>
     </>
@@ -84,21 +131,11 @@ export default function LoungeScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    padding: wp(10),
-    backgroundColor: '#FFF'
-  },
-  header: {
-    paddingVertical: hp(3) 
+    padding: 15,
+    backgroundColor: '#FFF',
+    minHeight: Dimensions.get('window').height
   },
   row: {
-    marginVertical: wp(2)
-  },
-  textLabel: {
-    fontSize: wp(6),
-    color: '#000'
-  },
-  textDesc: {
-    fontSize: wp(6),
-    color: '#000'
-  } 
+    marginVertical: 15
+  }
 });

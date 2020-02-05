@@ -7,14 +7,10 @@ import {
   Text,
   StatusBar
 } from 'react-native';
-import { TouchableOpacity, ScrollView } from 'react-native-gesture-handler';
-import { 
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from '../../libraries/Responsive';
-import Button from '../../component/Button';
-import TextInput from '../../component/TextInput';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+
 import AutoComplete from '../../component/AutoComplete';
+import { Styles } from '../../styles';
 const EmergencyNumbers = require('../../assets/EmergencyNumbers.json')
 
 export default function EmergencyScreen() {
@@ -36,9 +32,6 @@ export default function EmergencyScreen() {
     <SafeAreaView >
       <StatusBar barStyle="dark-content" />
       <View style={styles.container} >    
-        <View style={styles.header}>
-          <Button title={'Emergency'} />
-        </View>  
         <View style={styles.row}>
           <AutoComplete 
             label={'Country'} 
@@ -53,7 +46,7 @@ export default function EmergencyScreen() {
             renderItem={({item, index}) => {
               return (
                 <TouchableOpacity onPress={() => onSelected(item)}>
-                  <View style={{ padding: wp(2) }}>
+                  <View style={{ padding: 10 }}>
                     <Text style={styles.textLabel}>{item.country}</Text>
                   </View>
                 </TouchableOpacity>
@@ -66,12 +59,12 @@ export default function EmergencyScreen() {
           {
             Boolean(country) && Object.keys(country.numbers).map((key) => {
               return (
-                <View style={{ flexDirection: 'row', height: null }}>
+                <View style={{ flexDirection: 'row', height: null, width: 200, alignSelf: 'center' }}>
                   <View style={{ flex: .5 }}>
-                    <Text style={styles.textDesc} >{key}</Text>
+                    <Text style={Styles.fontTitle3} >{key}</Text>
                   </View>
                   <View style={{ flex: .5 }}>
-                    <Text style={styles.textDesc} >{country.numbers[key] || "-"}</Text>
+                    <Text style={Styles.fontTitle3} >{country.numbers[key] || "-"}</Text>
                   </View>
                 </View>
               )
@@ -85,16 +78,9 @@ export default function EmergencyScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    margin: wp(10)
-  },
-  header: {
-    paddingVertical: hp(3) 
+    margin: 15
   },
   row: {
-    marginVertical: wp(2)
-  },
-  textDesc: {
-    fontSize: wp(6),
-    color: '#000'
+    marginVertical: 15
   } 
 });

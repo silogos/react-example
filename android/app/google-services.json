@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071396445222",
+    "firebase_url": "https://erudite-carving-181801.firebaseio.com",
+    "project_id": "erudite-carving-181801",
+    "storage_bucket": "erudite-carving-181801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071396445222:android:b7b3ce15dfcdc375eddae7",
+        "android_client_info": {
+          "package_name": "com.aimviva.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071396445222-8k8vc5q6kcnkgplsd1lbm9r2sm5u184c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aimviva.mobile",
+            "certificate_hash": "2e006e57ca6ba5524404b64de2891c1d6dd6bc5b"
+          }
+        },
+        {
+          "client_id": "1071396445222-6k7oltoeb6dsvb47njpfcd1e1be8812l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqLO9JhvHLmu_kjgprFm0KIflefU4TtIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071396445222-6k7oltoeb6dsvb47njpfcd1e1be8812l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

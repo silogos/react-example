@@ -13,8 +13,8 @@ import {
   heightPercentageToDP as hp
 } from '../../libraries/Responsive';
 import Button from '../../component/Button';
-import TextInput from '../../component/TextInput';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Styles } from '../../styles';
 
 const DATA = {
   numberEmergency: '+85227656700',
@@ -31,17 +31,14 @@ export default function MemberAreaScreen() {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView contentContainerStyle={styles.container}>    
-          <View style={styles.header}>
-            <Button title={'Member Area'} />
+          <View style={styles.row}>
+            <Text style={Styles.fontDisplay1} >Welcome Fahim</Text>
           </View>  
           <View style={styles.row}>
-            <Text style={styles.textDesc} >Welcome Fahim</Text>
+            <Text style={Styles.fontTitle1} >{`Member Number\nQ316180T-015`}</Text>
           </View>  
           <View style={styles.row}>
-            <Text style={styles.textDesc} >{`Member Number\nQ316180T-015`}</Text>
-          </View>  
-          <View style={styles.row}>
-            <Text style={styles.textDesc} >{`Valid from\nDec 16 2019 – Dec 15 2020`}</Text>
+            <Text style={Styles.fontTitle1} >{`Valid from\nDec 16 2019 – Dec 15 2020`}</Text>
           </View>
           <View style={styles.row}>
             <TouchableOpacity onPress={() => deepLink(`tel:${DATA.numberEmergency}`)}>
@@ -51,10 +48,10 @@ export default function MemberAreaScreen() {
             </TouchableOpacity>
           </View>
           <View style={styles.row}>
-            <Text style={styles.textDesc} >{`Policy Number\nQ316180T`}</Text>
+            <Text style={Styles.fontTitle1} >{`Policy Number\nQ316180T`}</Text>
           </View>
           <View style={styles.row}>
-            <Text style={styles.textDesc} >{`Policy Owner\nHong Kong Wellness Ltd`}</Text>
+            <Text style={Styles.fontTitle1} >{`Policy Owner\nHong Kong Wellness Ltd`}</Text>
           </View>
           <View style={styles.row}>
             <Button title={'Claim Form'} onPress={() => deepLink(DATA.urlForm)} />
@@ -67,26 +64,28 @@ export default function MemberAreaScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    padding: wp(10)
-  },
-  header: {
-    paddingVertical: hp(3) 
+    padding: 15
   },
   row: {
-    marginVertical: wp(2)
+    marginVertical: 15
   },
   textDesc: {
     fontSize: wp(6),
     color: '#000'
   },
   buttonEmergency: {
+    height: 56,
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: 'red',
-    padding: hp(2),
-    borderRadius: hp(1.5),
+    marginBottom: 15,
+    borderRadius: 12,
+    borderWidth: 5,
+    borderColor: '#FFF',
     elevation: 1
   },
   buttonEmergencyText: {
-    fontSize: wp(6),
+    fontSize: 25,
     color: '#FFF',
     textAlign: 'center',
     fontWeight: '700'

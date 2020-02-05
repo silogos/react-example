@@ -9,18 +9,10 @@ import {
   Dimensions
 } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { 
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from '../../libraries/Responsive';
-import Button from '../../component/Button';
-import TextInput from '../../component/TextInput';
-import AutoComplete from '../../component/AutoComplete';
-const VaccinesData = require('../../assets/Vaccines.json')
 
-const DATA = {
-  description: 'hepatitis A, hepatitis B, typhoid, rabies, meningitis, polio, measles, mumps and rubella (MMR), Tdap (tetanus, diphtheria and pertussis), chickenpox, shingles, pneumonia and influenza',
-}
+import AutoComplete from '../../component/AutoComplete';
+import { Styles } from '../../styles';
+const VaccinesData = require('../../assets/Vaccines.json')
 
 export default function VaccinesScreen() {
   const [searchCountry, setSearchCountry] = useState('');
@@ -42,10 +34,7 @@ export default function VaccinesScreen() {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView  style={{ flex: 1 }}>
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{ minHeight: Dimensions.get('window').height - 23 }}>
-          <View style={styles.container}>    
-            <View style={styles.header}>
-              <Button title={'Vaccines'} />
-            </View>  
+          <View style={styles.container}> 
             <View style={styles.row}>
               <AutoComplete 
                 label={'Country'} 
@@ -60,8 +49,8 @@ export default function VaccinesScreen() {
                 renderItem={({item, index}) => {
                   return (
                     <TouchableOpacity onPress={() => onSelected(item)}>
-                      <View style={{ padding: wp(2) }}>
-                        <Text style={styles.textLabel}>{item.country}</Text>
+                      <View style={{ padding: 10 }}>
+                        <Text style={Styles.fontBody1}>{item.country}</Text>
                       </View>
                     </TouchableOpacity>
                   )
@@ -69,7 +58,7 @@ export default function VaccinesScreen() {
               />
             </View>
             <View style={styles.row}>
-              <Text style={styles.textDesc} >{Boolean(country) && country.data}</Text>
+              <Text style={Styles.fontBody1} >{Boolean(country) && country.data}</Text>
             </View>  
           </View>
         </ScrollView>
@@ -80,16 +69,9 @@ export default function VaccinesScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    padding: wp(10)
-  },
-  header: {
-    paddingVertical: hp(3) 
+    padding: 15
   },
   row: {
-    marginVertical: wp(2)
-  },
-  textDesc: {
-    fontSize: wp(6),
-    color: '#000'
+    marginVertical: 15
   } 
 });

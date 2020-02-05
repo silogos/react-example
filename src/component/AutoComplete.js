@@ -9,6 +9,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
 } from '../libraries/Responsive';
+import { Styles } from '../styles'
 
 export default AutoComplete = ({ 
   label, value, defaultValue, onChangeText, style, data, renderItem, ...otherProps 
@@ -21,16 +22,16 @@ export default AutoComplete = ({
 
   return (
     <View>
-      <Text style={styles.textLabel} >{label}</Text>
+      <Text style={[Styles.fontTitle3]} >{label}</Text>
       <View style={[
         styles.textInput, 
         { elevation: focus ? 3 : 1 }
       ]}>
         <TextInput 
           style={[
-            styles.textLabel, 
+            Styles.fontTitle3, 
             style,
-            { color: value ?  "red" : "#CCC" }
+            { backgroundColor: '#fbfbfb', color: value ?  "red" : "#CCC" }
           ]} 
           onChangeText={_onChangeText} 
           value={value || defaultValue} 
@@ -61,9 +62,10 @@ const styles = StyleSheet.create({
     color: '#000'
   },
   textInput: {
-    paddingHorizontal: wp(3),
-    borderRadius: hp(1.5),
-    borderWidth: hp(.5),
+    // paddingHorizontal: 15,
+    overflow: 'hidden',
+    borderRadius: 10,
+    borderWidth: 5  ,
     borderColor: '#FFF',
     elevation: 3
   },
@@ -71,10 +73,10 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 0, 
     right: 0,
-    top: wp(21),
+    top: 75,
     // paddingHorizontal: wp(3),
-    borderRadius: hp(1.5),
-    borderWidth: hp(.5),
+    borderRadius: 10,
+    borderWidth: 5,
     borderColor: '#FFF',
     borderTopLeftRadius: 0,
     borderTopRightRadius: 0,
@@ -82,6 +84,6 @@ const styles = StyleSheet.create({
     borderTopWidth: 0,
     elevation: 3,
     zIndex: 1,
-    maxHeight: wp(40)
+    maxHeight: 150
   }
 });

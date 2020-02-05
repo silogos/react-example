@@ -1,0 +1,1439 @@
+[
+  {
+    "idAirport": 1,
+    "countryCode": "CN",
+    "title": "Beijing Capital International Airport",
+    "terminals": [
+      {
+        "title": "BGS Premier Lounge (International Departures, Terminal 2)",
+        "time": "0500 - 0200 daily",
+        "features": "Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Wi-Fi",
+        "costs": "2 hours from USD 30.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+86 10 6459 0410"
+          }
+        ]
+      },
+      {
+        "title": "BGS Premier Lounge (International Departures, Terminal 3)",
+        "time": "24 hours Sat-Wed, 0000 - 0200, 0500 - 0200 Thurs, 0500 - 0000 Fri",
+        "features": "Food & Beverage, Newspapers / Magazines, Shower Facilities, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 45.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+86 10 6455 8089"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 2,
+    "countryCode": "CN",
+    "title": "Guangzhou Baiyun International Airport",
+    "terminals": [
+      {
+        "title": "Library Lounge by Aerotel Guangzhou (International Departures, Terminal 2)",
+        "time": "0700 – 2300 daily",
+        "features": "Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 38.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+86 20 3606 6330"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 3,
+    "countryCode": "CN",
+    "title": "Shanghai Pudong International Airport",
+    "terminals": [
+      {
+        "title": "No. 77 China Eastern Plaza Premium Lounge (International Departures, Terminal 2)",
+        "time": "0600 - 0130 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 38.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": ""
+          }
+        ]
+      },
+      {
+        "title": "No. 37 VIP Lounge (International Departures, Terminal 1)",
+        "time": "0600 - Last Flight Departure daily",
+        "features": "Food & Beverage, Newspapers / Magazines, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 38.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+86 21 6834 5232"
+          }
+        ]
+      },
+      {
+        "title": "No. 9 VIP Lounge (Domestic Departures, Terminal 1)",
+        "time": "0600 - Last Flight Departure daily",
+        "features": "Flight Information, Food & Beverage, Newspapers / Magazines, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 23.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+86 21 6833 0010"
+          }
+        ]
+      },
+      {
+        "title": "No. 76 VIP Lounge (Domestic Departures, Terminal 2)",
+        "time": "0600 - Last Flight Departure daily",
+        "features": "Flight Information, Food & Beverage, Newspapers / Magazines, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 23.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+86 21 6883 7015"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 4,
+    "countryCode": "CN",
+    "title": "Shanghai Hongqiao International Airport",
+    "terminals": [
+      {
+        "title": "No. 5 VIP Lounge (Domestic Departures, Terminal 1)",
+        "time": "0530 - Last Flight Departure daily",
+        "features": "Flight Information, Food & Beverage, Newspapers / Magazines, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 23.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+86 21 2234 2133"
+          }
+        ]
+      },
+      {
+        "title": "V01 VIP International Lounge (International Departures, Terminal 1)",
+        "time": "0600 - Last Flight Departure daily",
+        "features": "Charging Station, Food & Beverage, Lounge Bay, Shower Facilities, Wi-Fi",
+        "costs": "2 Hours from USD 38.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 5,
+    "countryCode": "HK",
+    "title": "Hong Kong International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Near Gate 60, Departures)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Vegetarian Options, Wi-Fi",
+        "costs": "1 Hour from USD 42.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+852 3018 3078"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Near Gate 35, Departures)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+852 3018 3078"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium First (Near Gate 1, Departures)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, TV Channels, Vegetarian Options",
+        "costs": "10 Hours from USD 151.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+852 3018 3078"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Near Gate 1, Departures)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+852 3018 3078"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 6,
+    "countryCode": "MO",
+    "title": "Macau International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Departures)",
+        "time": "0500 – 0200 daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 50.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+853 8898 2150"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 7,
+    "countryCode": "TW",
+    "title": "Taiwan Taoyuan International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Zone A, International Departures, Terminal 2)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Shower Facilities, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+886 (03) 393 1796"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Zone A1, International Departures, Terminal 2)",
+        "time": "0600 – 2200 daily",
+        "features": "Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Vegetarian Options, Wi-Fi",
+        "costs": "10 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+886 (03) 393 1396"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Zone C, International Departures, Terminal 1)",
+        "time": "0600 – 2200 daily",
+        "features": "Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "10 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+886 (03) 393 1930"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Zone D, International Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "10 Hours from USD 80.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+886 (03) 393 1931"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 8,
+    "countryCode": "BR",
+    "title": "Rio de Janeiro RIOgaleão – Tom Jobim International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal 2)",
+        "time": "0700 - 2300 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 45.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+55 21 3398 2741"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures, Terminal 2)",
+        "time": "0600 - 2200 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 35.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+55 21 3398 2746"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Arrivals, Terminal 2)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+55 21 3398 2751"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 9,
+    "countryCode": "CA",
+    "title": "Edmonton International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Non-US Departures)",
+        "time": "0430 - midnight daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 40.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 780 890 2187"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (US Departures)",
+        "time": "0430 - 1800 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 780 890 0009"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 10,
+    "countryCode": "CA",
+    "title": "Toronto Pearson International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures, Terminal 1)",
+        "time": "0500 - 2230 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 416 776 0285"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures, Terminal 3)",
+        "time": "0500 - 2230 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Spa, Massage & Beauty Services, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 43.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 416 776 2650"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal 1)",
+        "time": "0500 - 0130 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 43.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 416 776 0285"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal 3)",
+        "time": "0430 - 0100 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 43.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 416 776 5591"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (US Transborder, Terminal 1)",
+        "time": "0500 - 2030 daily",
+        "features": "Charging Station, Food & Beverage, Lounge Bay, Newspapers / Magazines, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 (416) 776-2648"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (US Transborder, Terminal 3)",
+        "time": "0500 - 2030 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Spa, Massage & Beauty Services, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 416 776 2573"
+          }
+        ]
+      },
+      {
+        "title": "Wellbeing (US Transborder, Terminal 3)",
+        "time": "0500 - 2030 daily",
+        "features": "Spa, Massage & Beauty Services",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 416 776 2664"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 11,
+    "countryCode": "CA",
+    "title": "Vancouver International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Pier C, Domestic Departures)",
+        "time": "0500 - 2230 daily",
+        "features": "Bar, Charging Station, Draught Beer, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 42.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 604 276 0501"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures)",
+        "time": "0500 - 2230 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 42.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 604 2760082"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "0500 - 0130 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 42.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 604 276 6688"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (US Departures)",
+        "time": "0430 - 2000 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 604 244 1700"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 12,
+    "countryCode": "CA",
+    "title": "Winnipeg Richardson International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Departures)",
+        "time": "0400 - 2100 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+1 204 691 7929"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 13,
+    "countryCode": "FI",
+    "title": "Helsinki Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Non-Schengen Area, Departures, Terminal 2)",
+        "time": "0500 - 0000 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 57.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+358 44 731 4829"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 14,
+    "countryCode": "FR",
+    "title": "Charles de Gaulle Airport",
+    "terminals": [
+      {
+        "title": "Salon ICARE (Departures, Terminal 1)",
+        "time": "0600 – 2330 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Wi-Fi",
+        "costs": "3 Hours from USD 46.98",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+33 1 48 62 01 00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 15,
+    "countryCode": "IT",
+    "title": "Leonardo da Vinci-Fiumicino Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Extra Schengen Area, Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 47.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+39 06 6595 4500"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 16,
+    "countryCode": "GB",
+    "title": "London Heathrow Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Departures, Terminal 2)",
+        "time": "0500 - 2200 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Lounge Bay, Nail Care, Newspapers / Magazines, Spa, Massage & Beauty Services, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+44 208 976 7807"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Arrivals, Terminal 2)",
+        "time": "0500 - 2200 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Spa, Massage & Beauty Services, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+44 208 976 7819"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Arrivals, Terminal 3)",
+        "time": "0530 - 1400 daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+44 208 745 0667"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Departures, Terminal 4)",
+        "time": "0500 - 2200 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+44 208 745 0765"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Arrivals, Terminal 4)",
+        "time": "0500 – 2200 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+44 208 745 0533"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Departures, Terminal 5)",
+        "time": "0500 – 2200 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 53.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+44 208 2836436"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 17,
+    "countryCode": "AU",
+    "title": "Brisbane Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "0500 - 0000 (Tue, Thu); 0500 - 0045 (Sat)",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+61 7 3305 9288"
+          }
+        ]
+      },
+      {
+        "title": "Wellness Spa (International Departures)",
+        "time": "0730 - 1300 (Tue, Thu); 0800 - 1300 (Sat)",
+        "features": "Spa, Massage & Beauty Services, Wi-Fi",
+        "costs": "1 Hour from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+61 7 3305 9292"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 18,
+    "countryCode": "AU",
+    "title": "Melbourne Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal 2)",
+        "time": "0600 - 2300 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Newspapers / Magazines, Telephone, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+61 03 8326 3433"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 19,
+    "countryCode": "AU",
+    "title": "Sydney Airport",
+    "terminals": [
+      {
+        "title": "SkyTeam Lounge operated by Plaza Premium Lounge (International Departures)",
+        "time": "0600 - 2200 daily",
+        "features": "Charging Station, Flight Information, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Wi-Fi",
+        "costs": "5 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+61 2 9693 4550"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 20,
+    "countryCode": "KH",
+    "title": "Phnom Penh International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "0500 - 0100 Daily",
+        "features": "Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 39.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+855 23 862 820"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 21,
+    "countryCode": "KH",
+    "title": "Siem Reap International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "0500 - 0100 daily",
+        "features": "Charging Station, Concierge, Draught Beer, Flight Information, Food & Beverage, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options",
+        "costs": "2 Hours from USD 39.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+855 63 962 378"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 22,
+    "countryCode": "ID",
+    "title": "Jakarta Soekarno-Hatta International Airport",
+    "terminals": [
+      {
+        "title": "Saphire - Plaza Premium Lounge (International Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "62 21 8082 2208"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 23,
+    "countryCode": "MY",
+    "title": "Kota Kinabalu International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "0600 - 0130 daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+608 841 3190"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures)",
+        "time": "0530 - 2200 daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+608 841 3204"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 24,
+    "countryCode": "MY",
+    "title": "Kuala Lumpur International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium First (International Departures, Satellite Terminal)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "10 Hours from USD 89.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+603 8776 2338"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (International Departures, Satellite Terminal)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+603 8787 2323"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal KLIA2)",
+        "time": "0400 - 0000 daily",
+        "features": "Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "10 hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+603 8787 1463"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Opposite Aerotel Kuala Lumpur, [email protected])",
+        "time": "24 hours daily",
+        "features": "Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+603 8787 8396"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Next to Aerotel Kuala Lumpur, [email protected])",
+        "time": "24 hours daily",
+        "features": "Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "10 hours from USD 77.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+603 8778 0999"
+          }
+        ]
+      },
+      {
+        "title": "Wellness (International Departures, Satellite Terminal)",
+        "time": "24 hours daily",
+        "features": "Newspapers / Magazines, Shower Facilities, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+ 603 8776 1225"
+          }
+        ]
+      },
+      {
+        "title": "Wellness (International Departures, Terminal KLIA2)",
+        "time": "0400 - 0000 daily",
+        "features": "Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+603 8787 1026"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 25,
+    "countryCode": "MY",
+    "title": "Kuching International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Domestic Departure)",
+        "time": "0600 - 2230 daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Wi-Fi",
+        "costs": "10 hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+608 2451 678"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 26,
+    "countryCode": "MY",
+    "title": "Langkawi International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Departure Hall, Outside Secured Area)",
+        "time": "0700 - 2200 daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 42.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+604 955 1238"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 27,
+    "countryCode": "MY",
+    "title": "Penang International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "0600 - 2300 daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "10 hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+604 643 4020"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures)",
+        "time": "0500 - 2330 daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+604 643 7340"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 28,
+    "countryCode": "PH",
+    "title": "Mactan-Cebu International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Departures, Terminal 2)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Playroom, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 34.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+63 32 494 7792"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Arrival Level, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Wi-Fi",
+        "costs": "2 Hours from USD 34.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+63 32 494 7817"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 29,
+    "countryCode": "SG",
+    "title": "Singapore Changi Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+65 6443 2730"
+          }
+        ]
+      },
+      {
+        "title": "BLOSSOM - SATS & Plaza Premium Lounge (International Departures, Terminal 4)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Draught Beer, Flight Information, Food & Beverage, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "10 Hours from USD 78.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+65 6581 3073"
+          }
+        ]
+      },
+      {
+        "title": "SATS Premier Lounge (Departures, Terminal 2)",
+        "time": "24 hours daily",
+        "features": "Bar, Concierge, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Wi-Fi",
+        "costs": "5 Hours from USD 54.0",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+65 6541 8885"
+          }
+        ]
+      },
+      {
+        "title": "SATS Premier Lounge (Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Concierge, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Wi-Fi",
+        "costs": "5 Hours from USD 54.0",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+65 6501 2680"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 30,
+    "countryCode": "KR",
+    "title": "Gimpo International Airport",
+    "terminals": [
+      {
+        "title": "Skyhub Lounge (International Departure, Terminal 1)",
+        "time": "07:00 - 22:00 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Telephone, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+82 2 2667 0680"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 31,
+    "countryCode": "KR",
+    "title": "Incheon International Airport",
+    "terminals": [
+      {
+        "title": "Matina Lounge (International Departure, Terminal 2)",
+        "time": "07:00 - 22:00 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, Vegetarian Options, Wi-Fi",
+        "costs": "2 hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+82 32 743 5050"
+          }
+        ]
+      },
+      {
+        "title": "Matina Lounge (East Wing, International Departures, Terminal 1)",
+        "time": "0700 - 2100 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+82 32 743 3012"
+          }
+        ]
+      },
+      {
+        "title": "Matina Lounge (West Wing, International Departures, Terminal 1)",
+        "time": "0700 - 2100 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+82 32 743 3012"
+          }
+        ]
+      },
+      {
+        "title": "Skyhub Lounge (East Concourse, International Departure)",
+        "time": "06:30-21:30 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+82 32 743 4811"
+          }
+        ]
+      },
+      {
+        "title": "Skyhub Lounge (East Wing, International Departures, Terminal 1)",
+        "time": "0630 - 2130 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+82 32 743 4811"
+          }
+        ]
+      },
+      {
+        "title": "Skyhub Lounge (West Wing, International Departures, Terminal 1)",
+        "time": "0700 - 2130 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 0.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+82 32 743 4811"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 32,
+    "countryCode": "IN",
+    "title": "Sardar Vallabhbhai Patel International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 21.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 79 22858266"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal 2)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 31.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 99 0904 6711"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 33,
+    "countryCode": "IN",
+    "title": "Indira Gandhi International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 21.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 11 4768 1188"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge Transit Hotel (Domestic Arrivals, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Nail Care, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 11 4597 0088"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures, Terminal 2)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 8527364441"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Lounge A, Level 3, International Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 31.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 11 6123 3955"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Lounge B, Level 4, International Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Nail Care, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 11 6123 3966"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Nail Care, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 21.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 11 6123 3944"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge Transit Hotel (International Arrivals, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Lounge Bay, Nail Care, Newspapers / Magazines, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 11 6123 3933"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Arrivals, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Lounge Bay, Nail Care, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 11 6123 3922"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 34,
+    "countryCode": "IN",
+    "title": "Rajiv Gandhi International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 31.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 40 6660 3727"
+          }
+        ]
+      },
+      {
+        "title": "Plaza Premium Lounge (Domestic Departures)",
+        "time": "0430 - 2300 daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Meeting Rooms, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 21.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+91 40 6660 3922"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 35,
+    "countryCode": "OM",
+    "title": "Salalah Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 39.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+968 2336 7167"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 36,
+    "countryCode": "SA",
+    "title": "King Fahd International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 52.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+966 13 88 30106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 37,
+    "countryCode": "SA",
+    "title": "Riyadh King Khalid International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Telephone, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "2 Hours from USD 40.00",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+966 11 2219327"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 38,
+    "countryCode": "AE",
+    "title": "Abu Dhabi International Airport",
+    "terminals": [
+      {
+        "title": "Al Reem Lounge (International Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "3 Hours from USD 46.98",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+971 2 505 2745"
+          }
+        ]
+      },
+      {
+        "title": "Al Dhabi Lounge (International Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+971 2 505 2847"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idAirport": 39,
+    "countryCode": "AE",
+    "title": "Dubai International Airport",
+    "terminals": [
+      {
+        "title": "Plaza Premium Lounge (International Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Family Suite, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Playroom, Prayer Room, Shower Facilities, Smoking Area, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": null,
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+971 4 505 7940"
+          }
+        ]
+      },
+      {
+        "title": "Ahlan Cadiz Lounge (International Departures, Terminal 3)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "3 Hours from USD 75.96",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+971 4 505 2740"
+          }
+        ]
+      },
+      {
+        "title": "Ahlan Business Class Lounge (International Departures, Terminal 1)",
+        "time": "24 hours daily",
+        "features": "Bar, Charging Station, Flight Information, Food & Beverage, Lounge Bay, Newspapers / Magazines, Shower Facilities, Spa, Massage & Beauty Services, TV Channels, Vegetarian Options, Wi-Fi",
+        "costs": "3 Hours from USD 60.96",
+        "contacts": [
+          {
+            "email": "[email protected]",
+            "phone": "+971 4 505 2899"
+          }
+        ]
+      }
+    ]
+  }
+]

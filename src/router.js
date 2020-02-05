@@ -15,16 +15,16 @@ import LoungeScreen from "./screens/Lounge"
 
 const RootNavigator = createStackNavigator(
   {
-    Home: { screen: HomeScreen },
-    LogIn: { screen: LogInScreen },
-    MemberArea: { screen: MemberAreaScreen },
-    Vaccines: { screen: VaccinesScreen },
-    Visa: { screen: VisaScreen },
-    Emergency: { screen: EmergencyScreen },
-    Lounge: { screen: LoungeScreen },
+    Home: { screen: HomeScreen, navigationOptions: { header: null } },
+    LogIn: { screen: LogInScreen, navigationOptions: { headerTitle: "Log In" } },
+    MemberArea: { screen: MemberAreaScreen, navigationOptions: { headerTitle: "Member Area" } },
+    Vaccines: { screen: VaccinesScreen, navigationOptions: { headerTitle: "Vaccines" } },
+    Visa: { screen: VisaScreen, navigationOptions: { headerTitle: "Visa" } },
+    Emergency: { screen: EmergencyScreen, navigationOptions: { headerTitle: "Emergency" } },
+    Lounge: { screen: LoungeScreen, navigationOptions: { headerTitle: "Lounge" } },
   },
   {
-    headerMode: "none",
+    // headerMode: "none",
     initialRouteName: "Home"
   }
 )

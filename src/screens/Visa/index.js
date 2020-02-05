@@ -12,12 +12,9 @@ import {
 } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import axios from 'axios';
-import { 
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from '../../libraries/Responsive';
+
 import AutoComplete from '../../component/AutoComplete';
-import Button from '../../component/Button';
+import { Styles } from '../../styles';
 
 const iVisaImage = require('../../assets/ivisaimage.jpg') 
 const CountriesData = require('../../assets/Countries.json')
@@ -91,9 +88,6 @@ export default function VisaScreen() {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView contentContainerStyle={styles.container}>    
-          <View style={styles.header}>
-            <Button title={'Visas'} />
-          </View>  
           <View style={styles.row}>
             <AutoComplete 
               label={'Country'} 
@@ -110,7 +104,7 @@ export default function VisaScreen() {
               renderItem={({item, index}) => {
                 return (
                   <TouchableOpacity onPress={() => onSelectVountry(item)}>
-                    <View style={{ padding: wp(2) }}>
+                    <View style={{ padding: 10 }}>
                       <Text style={styles.textLabel}>{item.name.common}</Text>
                     </View>
                   </TouchableOpacity>
@@ -133,8 +127,8 @@ export default function VisaScreen() {
               renderItem={({item, index}) => {
                 return (
                   <TouchableOpacity onPress={() => onSelectVisitCountry(item)}>
-                    <View style={{ padding: wp(2) }}>
-                      <Text style={styles.textLabel}>{item.name.common}</Text>
+                    <View style={{ padding: 10 }}>
+                      <Text style={Styles.fontBody1}>{item.name.common}</Text>
                     </View>
                   </TouchableOpacity>
                 )
@@ -142,13 +136,13 @@ export default function VisaScreen() {
             />
           </View>
           <View style={styles.row}>
-            <Text style={styles.textDesc} >{visitCountry && typesVisa[visitCountry.requirements.type]}</Text>
+            <Text style={Styles.fontTitle2} >{visitCountry && typesVisa[visitCountry.requirements.type]}</Text>
           </View>  
           <View style={[styles.row, {marginTop: 100}]}>
-            <Text style={styles.textDesc} >"Note: 2017 data, visa may have changed"</Text>
+            <Text style={[Styles.fontCaption, { textAlign: 'center'  }]} >"Note: 2017 data, visa may have changed"</Text>
           </View>  
           <View style={styles.row}>
-            <Text style={styles.textDesc} >You can visit: </Text>
+            <Text style={[Styles.fontTitle1, { textAlign: 'center'  }]} >You can visit: </Text>
           </View>  
           <View style={[styles.row, { alignItems: 'center' }]}>
             <TouchableOpacity onPress={() => goToWebsite('http://bit.ly/aimvisa')} >
@@ -164,21 +158,14 @@ export default function VisaScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    padding: wp(10),
+    padding: 15,
     minHeight: Dimensions.get('window').height
   },
-  header: {
-    paddingVertical: hp(3) 
-  },
   row: {
-    marginVertical: wp(2)
-  },
-  textDesc: {
-    fontSize: wp(6),
-    color: '#000',
-    textAlign: 'center'
+    marginVertical: 15
   },
   image: {
-    height: wp(70),
+    height: 200,
+    resizeMode: 'contain'
   }
 });

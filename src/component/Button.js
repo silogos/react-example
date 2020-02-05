@@ -5,10 +5,6 @@ import {
   Text
 } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { 
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from '../libraries/Responsive';
 
 export default Button = ({ title, onPress }) => {
   return (
@@ -22,16 +18,18 @@ export default Button = ({ title, onPress }) => {
 
 const styles = StyleSheet.create({
   button: {
+    height: 56,
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: 'green',
-    padding: hp(1),
-    marginBottom: hp(2),
-    borderRadius: hp(1.5),
-    borderWidth: hp(.5),
+    marginBottom: 15,
+    borderRadius: 12,
+    borderWidth: 5,
     borderColor: '#FFF',
     elevation: 1
   },
   buttonText: {
-    fontSize: wp(6),
+    fontSize: 25,
     textAlign: 'center',
     color: '#FFF'
   }
